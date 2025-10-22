@@ -25,12 +25,16 @@ const App = () => {
 
   useEffect(() => {
     if (isSidebarVisible) {
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
       document.body.classList.add('is-sidebar-open');
     } else {
+      document.body.style.paddingRight = '';
       document.body.classList.remove('is-sidebar-open');
     }
 
     return () => {
+      document.body.style.paddingRight = '';
       document.body.classList.remove('is-sidebar-open');
     };
   }, [isSidebarVisible]);

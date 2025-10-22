@@ -40,6 +40,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 body {
   font-family: 'Inter', sans-serif;
+  scrollbar-gutter: stable;
 }
 
 body.is-sidebar-open {
