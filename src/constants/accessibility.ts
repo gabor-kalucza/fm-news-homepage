@@ -8,14 +8,14 @@ export const ALT_TEXT = {
 
 export const ARIA_LABELS = {
   navigation: {
-    menu: 'Navigation menu',
-    openMenu: 'Open navigation menu',
-    closeMenu: 'Close navigation menu',
-    home: 'Go to homepage',
-    new: 'View new articles',
-    popular: 'View popular articles',
-    trending: 'View trending articles',
-    categories: 'Browse article categories',
+    menu: 'Main site navigation menu',
+    openMenu: 'Open the main navigation menu to browse site sections',
+    closeMenu: 'Close the main navigation menu',
+    home: 'Navigate to the homepage',
+    new: 'Browse the latest published articles',
+    popular: 'View articles that are most popular with readers',
+    trending: 'See articles currently trending across the site',
+    categories: 'Explore articles grouped by category or topic',
   },
   actions: {
     readMoreHero: 'Read more about the bright future of Web 3.0',
