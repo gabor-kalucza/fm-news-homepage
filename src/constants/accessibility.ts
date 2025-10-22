@@ -18,7 +18,7 @@ export const ARIA_LABELS = {
     categories: 'Explore articles grouped by category or topic',
   },
   actions: {
-    readMoreHero: 'Read more about the bright future of Web 3.0',
+    readMoreHero: 'Discover the bright future of Web 3.0.',
     readMoreArticle: (title: string) => `Read more about ${title}`,
   },
 };

@@ -14,7 +14,7 @@ const NavigationList = ({ variant = 'desktop' }: NavigationListProps) => {
   return (
     <ul className={variantClasses[variant]}>
       {NAV_ITEMS_WITH_LABELS.map((item) => (
-        <li className={baseClasses} key={item.label}>
+        <li className={`${baseClasses} w-fit`} key={item.label}>
           <a href="#" aria-label={item.ariaLabel as string}>
             {item.label}
           </a>
