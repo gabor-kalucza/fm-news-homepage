@@ -47,9 +47,8 @@ const App = () => {
       </AnimatePresence>
       <div
         ref={mainContentRef}
-        className={`wrapper font-inter } mx-auto max-w-278 px-4 pb-22.25 md:px-20 lg:px-0`}
+        className={`wrapper font-inter mx-auto max-w-278 px-4 pb-22.25 md:px-20 lg:px-0 ${isSidebarVisible ? 'pointer-events-none' : 'pointer-events-auto'}`}
         aria-hidden={isSidebarVisible}
-        style={{ pointerEvents: isSidebarVisible ? 'none' : 'auto' }}
       >
         <Header onMenuToggle={toggleSidebar} isSidebarVisible={isSidebarVisible} />
         <main>
